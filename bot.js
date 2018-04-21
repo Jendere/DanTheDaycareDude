@@ -179,13 +179,9 @@ else if(message.channel.id == config.SAY_CHANNEL && message.content.toLowerCase(
 
 //Every other command
 else if(message.author.id == ("340886593722253312") && message.content.startsWith("!"))
-  {
-    message.channel.send("p"+message.content);
-  }
-    else
-  {
-    message.reply("Pardon me senpai! Couldn't deliver the scroll!! :frowning: ");
-  }
+{
+  message.channel.send("p"+message.content);
+}
 }
 
 });
